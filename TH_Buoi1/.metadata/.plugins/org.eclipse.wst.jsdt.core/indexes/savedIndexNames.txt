@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+C:\Users\Student\Downloads\TH_Buoi1\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1648703680.index
