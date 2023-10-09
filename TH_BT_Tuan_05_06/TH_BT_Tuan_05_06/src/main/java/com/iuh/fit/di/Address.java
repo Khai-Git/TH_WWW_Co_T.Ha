@@ -1,4 +1,4 @@
-package spring_di;
+package com.iuh.fit.di;
 
 public class Address {
 	private String city;
