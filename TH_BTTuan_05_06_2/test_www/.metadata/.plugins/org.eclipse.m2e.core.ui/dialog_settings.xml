@@ -6,11 +6,13 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Bai_04_Tuan_06"/>
 			<item value="Tuan6_LeTranTuUyen"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Bai_04_Tuan_06"/>
 			<item value="Tuan6_LeTranTuUyen"/>
 		</list>
 		<list key="version">
