@@ -1,4 +1,11 @@
-INDEX VERSION 1.4+T:\test_www\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2178715355.index
-541834038.index
-4273546730.index
+INDEX VERSION 1.4+D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2234858004.index
+1842850762.index
+4119695173.index
+1842850762.index
+2678027514.index
+59567581.index
+4116152401.index
+1924780470.index
+1178327924.index
+1825752110.index
