@@ -19,10 +19,10 @@
 		</tr>
 		<c:forEach var="std" items="${list}">
 			<tr>
-				<td>%{std.id}</td>
-				<td>%{std.fname}</td>
-				<td>%{std.lname}</td>
-				<td>%{std.diemtb}</td>
+				<td>${std.id}</td>
+				<td>${std.fname}</td>
+				<td>${std.lname}</td>
+				<td>${std.diemtb}</td>
 			</tr>
 		</c:forEach>
 	</table>
