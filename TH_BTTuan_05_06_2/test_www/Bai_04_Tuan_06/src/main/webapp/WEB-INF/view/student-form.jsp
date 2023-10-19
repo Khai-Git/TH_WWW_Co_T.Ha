@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-	<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,20 +22,18 @@
 			<tr>
 				<td>Country</td>
 				<td><form:select path="country">
-						<form:option items="${student.countryOptions}"></form:option>
+						<form:options items="${student.countryOptions}"></form:options>
 					</form:select></td>
 			</tr>
 			<tr>
 				<td>Favorite Language</td>
-				<td><form:select path="favoriteLanguage">
-						<form:option items="${student.favoriteLanguageOptions}"></form:option>
-					</form:select></td>
+				<td><form:radiobuttons path="favoriteLanguage"
+						items="${student.favoriteLanguageOptions}"></form:radiobuttons></td>
 			</tr>
 			<tr>
 				<td>Operating Systems</td>
-				<td><form:select path="operatingSystems">
-						<form:option items="${student.operatingSystemsOptions}"></form:option>
-					</form:select></td>
+				<td><form:checkboxes path="operatingSystems"
+						items="${student.operatingSystemsOptions}"></form:checkboxes></td>
 			</tr>
 			<tr>
 				<td colspan="2"><input type="submit" value="submit" /></td>
