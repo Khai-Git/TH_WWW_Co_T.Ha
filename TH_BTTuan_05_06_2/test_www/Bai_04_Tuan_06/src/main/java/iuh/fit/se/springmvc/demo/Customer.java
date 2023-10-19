@@ -9,10 +9,10 @@ import javax.validation.constraints.Size;
 public class Customer {
 	private String firstName;
 	private String lastName;
+	private Integer freePasses;
 	@NotNull(message="is required")
 	@Min(value=0, message="must be greater than or equal to zero")
 	@Max(value=10, message="must be less than or equal to 10")
-	private Integer freePasses;
 	private String postalCode;
 	@NotNull(message="is required")
 	@Size (min=4, message="is required")

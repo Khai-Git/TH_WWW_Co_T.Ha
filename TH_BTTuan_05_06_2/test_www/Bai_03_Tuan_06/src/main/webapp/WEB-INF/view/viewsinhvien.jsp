@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h3>Danh sach sinh viewn</h3>
+	<h3>Danh sach sinh vien</h3>
 	<table border="2" width="70%" cellspacing="0">
 		<tr>
 			<th>MSSV</th>

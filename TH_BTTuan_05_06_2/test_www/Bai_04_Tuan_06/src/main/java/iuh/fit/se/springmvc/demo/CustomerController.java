@@ -22,7 +22,7 @@ public class CustomerController {
 	
 	@RequestMapping("/processForm")
 	public String processForm(@Valid @ModelAttribute("customer") Customer customer, BindingResult theBindingResult) {
-		if (theBindingResult.hasErrors()) {
+		if (!theBindingResult.hasErrors()) {
 			return "customer-form";
 		} else {
 			return "customer-confirmation";
