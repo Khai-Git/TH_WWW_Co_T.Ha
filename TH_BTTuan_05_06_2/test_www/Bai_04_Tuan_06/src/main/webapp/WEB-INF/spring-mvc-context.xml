@@ -30,6 +30,10 @@
 
 	<mvc:resources location="/resource"
 		mapping="/resource/**"></mvc:resources>
+	<mvc:annotation-driven
+		validator="myBeansValidator"></mvc:annotation-driven>
+	<bean id="myBeansValidator"
+		class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"></bean>
 </beans>
 
         
