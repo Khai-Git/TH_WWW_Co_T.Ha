@@ -32,8 +32,11 @@
 			</tr>
 			<tr>
 				<td>Operating Systems</td>
-				<td><form:checkboxes path="operatingSystems"
-						items="${student.operatingSystemsOptions}"></form:checkboxes></td>
+				<td>
+				<form:checkboxes path="operatingSystems"
+						items="${student.operatingSystemsOptions}">
+				</form:checkboxes>
+				</td>
 			</tr>
 			<tr>
 				<td colspan="2"><input type="submit" value="submit" /></td>

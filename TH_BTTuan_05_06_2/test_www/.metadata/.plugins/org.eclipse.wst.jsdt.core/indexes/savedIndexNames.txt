@@ -1,12 +1,9 @@
-INDEX VERSION 1.4+D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-576370365.index
-2234858004.index
-2030918108.index
-4119695173.index
-59567581.index
-2678027514.index
-4116152401.index
-1924780470.index
+INDEX VERSION 1.4+E:\STUDY\2324HK1\WWW_CoHa\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+373771388.index
+187471012.index
 2030918108.index
 1178327924.index
-1825752110.index
+2887062696.index
+576370365.index
+134311539.index
+2294591255.index
