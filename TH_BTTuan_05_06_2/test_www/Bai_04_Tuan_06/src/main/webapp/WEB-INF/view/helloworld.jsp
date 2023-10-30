@@ -9,5 +9,7 @@
 <body>
 	Hello World of Spring!
 	<br></br> Student name: $(param.studentName)
+	<br/>
+	<a href="../">Menu</a>
 </body>
 </html>
