@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2023-10-16 09:26:19,424 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2023-10-16 09:33:22,141 [Worker-42: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.2.3/maven-war-plugin-3.2.3.jar
 2023-10-16 09:33:22,193 [Worker-39: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.2.3/maven-war-plugin-3.2.3.jar
@@ -2245,3 +2246,41 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/Tu
 2023-10-30 17:58:31,271 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_04_Tuan_06\src\main\resources
 2023-10-30 17:58:31,272 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-10-30 17:58:31,272 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_04_Tuan_06\src\test\resources
+=======
+>>>>>>> 1a5ef13aa819e2731b60e821abf09813a693ed52
+2023-10-30 20:07:41,987 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-30 20:07:47,230 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Bai_03_Tuan_06:Bai_03_Tuan_06:0.0.1-SNAPSHOT @ D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_03_Tuan_06\pom.xml.
+2023-10-30 20:07:48,388 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:07:48,392 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 20:07:48,395 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:07:48,396 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 20:07:48,607 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Bai_04_Tuan_06:Bai_04_Tuan_06:0.0.1-SNAPSHOT @ D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_04_Tuan_06\pom.xml.
+2023-10-30 20:07:48,680 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:6.2.0.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.2.0.Final
+2023-10-30 20:07:48,721 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:6.2.0.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.2.0.Final
+2023-10-30 20:07:48,734 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:6.2.0.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.2.0.Final
+2023-10-30 20:07:49,058 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:07:49,059 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_04_Tuan_06\src\main\resources
+2023-10-30 20:07:49,060 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:07:49,061 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_04_Tuan_06\src\test\resources
+2023-10-30 20:07:49,225 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:6.2.0.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.2.0.Final
+2023-10-30 20:07:49,232 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:07:49,233 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_04_Tuan_06\src\main\resources
+2023-10-30 20:07:49,234 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:07:49,235 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_04_Tuan_06\src\test\resources
+2023-10-30 20:07:49,384 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Spring_IOC_D:Spring_IOC_D:0.0.1-SNAPSHOT @ D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BT_Tuan_05_06\Spring_IOC_D\pom.xml.
+2023-10-30 20:07:49,642 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:07:49,643 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BT_Tuan_05_06\Spring_IOC_D\src\main\resources
+2023-10-30 20:07:49,644 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:07:49,644 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BT_Tuan_05_06\Spring_IOC_D\src\test\resources
+2023-10-30 20:07:50,737 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:07:50,737 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_04_Tuan_06\src\main\resources
+2023-10-30 20:07:50,738 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:07:50,739 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_04_Tuan_06\src\test\resources
+2023-10-30 20:08:07,131 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:08:07,132 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_04_Tuan_06\src\main\resources
+2023-10-30 20:08:07,133 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:08:07,133 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_04_Tuan_06\src\test\resources
+2023-10-30 20:08:17,157 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:08:17,158 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_04_Tuan_06\src\main\resources
+2023-10-30 20:08:17,159 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-10-30 20:08:17,159 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STUDY\2324HOCKY1\WWW Java\TH\TH_WWW_Co_T.Ha\TH_BTTuan_05_06_2\test_www\Bai_04_Tuan_06\src\test\resources
