@@ -13,8 +13,8 @@
 
 	<context:component-scan
 		base-package="se.iuh.edu.vn" />
+	
 	<mvc:annotation-driven />
-
 
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -40,7 +40,6 @@
 	<bean id="messageSource"
 		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
 		<property value="resource/messages" name="basenames" />
-
 	</bean>
 
 	<mvc:resources location="/resource"

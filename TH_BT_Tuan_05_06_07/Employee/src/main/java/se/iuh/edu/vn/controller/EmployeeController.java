@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,10 +16,11 @@ import se.iuh.edu.vn.beans.Employee;
 import se.iuh.edu.vn.dao.EmployeeDAO;
 
 @Controller
+
 public class EmployeeController {
 	@Autowired
 	EmployeeDAO dao;
-
+	
 	@RequestMapping("/empform")
 	public ModelAndView showform() {
 		return new ModelAndView("empform", "command", new EmployeeDAO());
@@ -30,9 +33,11 @@ public class EmployeeController {
 	}
 	
 	@RequestMapping("/viewemp")
-	public ModelAndView viewemp() {
+	public String viewemp(Model model) {
 		List<Employee> list = dao.getEmployees();
-		return new ModelAndView("viewemp", "list", list);
+		model.addAttribute("list",list);
+//		return new ModelAndView("list", "viewemp", list);
+		return "viewemp";
 	}
 
 	@RequestMapping(value = "/editemp/{id}")
