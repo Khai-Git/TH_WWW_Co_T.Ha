@@ -1,14 +1,20 @@
 package se.iuh.edu.vn.beans;
 
 import javax.persistence.Entity;
+<<<<<<< HEAD
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+=======
+>>>>>>> d3ed9075c6814857b3b7ccc41bb8cc3b0a582637
 import javax.persistence.Id;
 
 @Entity
 public class Employee {
 	@Id
+<<<<<<< HEAD
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+=======
+>>>>>>> d3ed9075c6814857b3b7ccc41bb8cc3b0a582637
 	private int id;
 	private String name;
 	private int salary;
