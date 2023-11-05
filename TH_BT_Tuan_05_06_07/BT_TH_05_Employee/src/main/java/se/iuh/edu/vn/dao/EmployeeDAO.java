@@ -26,7 +26,6 @@ public class EmployeeDAO {
 		return employee;
 	}
 	
-<<<<<<< HEAD
 	public void saveEmployee(Employee employee) {
 		Session currentSession = sessionFactory.getCurrentSession();
 		currentSession.save(employee);
@@ -52,23 +51,11 @@ public class EmployeeDAO {
 	        // Lưu cập nhật vào cơ sở dữ liệu
 	        currentSession.update(existingEmployee);
 	    }
-=======
-	public void saveEmployee(Employee employee, int idEmp) {
-		Session currentSession = sessionFactory.getCurrentSession();
-		
-	}
-	
-	public void updateEmployee(Employee employee, int idEmp) {
-		Session currentSession = sessionFactory.getCurrentSession();
->>>>>>> d3ed9075c6814857b3b7ccc41bb8cc3b0a582637
 	}
 	
 	public void deleteEmployee(int idEmp) {
 		Session currentSession = sessionFactory.getCurrentSession();
-<<<<<<< HEAD
 		Employee employeeToDelete = currentSession.get(Employee.class, idEmp);
 		currentSession.delete(employeeToDelete);
-=======
->>>>>>> d3ed9075c6814857b3b7ccc41bb8cc3b0a582637
 	}
 }
