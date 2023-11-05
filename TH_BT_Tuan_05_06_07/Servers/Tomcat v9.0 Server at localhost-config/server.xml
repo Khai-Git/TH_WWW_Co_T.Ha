@@ -17,7 +17,11 @@
 --><!-- Note:  A "Server" is not itself a "Container", so you may not
      define subcomponents such as "Valves" at this level.
      Documentation at /docs/config/server.html
+<<<<<<< HEAD
  --><Server port="8085" shutdown="SHUTDOWN">
+=======
+ --><Server port="8005" shutdown="SHUTDOWN">
+>>>>>>> d3ed9075c6814857b3b7ccc41bb8cc3b0a582637
   <Listener className="org.apache.catalina.startup.VersionLoggerListener"/>
   <!-- Security listener. Documentation at /docs/config/listeners.html
   <Listener className="org.apache.catalina.security.SecurityListener" />
@@ -60,7 +64,11 @@
          APR (HTTP/AJP) Connector: /docs/apr.html
          Define a non-SSL/TLS HTTP/1.1 Connector on port 8080
     -->
+<<<<<<< HEAD
     <Connector connectionTimeout="20000" maxParameterCount="1000" port="8087" protocol="HTTP/1.1" redirectPort="8443"/>
+=======
+    <Connector connectionTimeout="20000" maxParameterCount="1000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>
+>>>>>>> d3ed9075c6814857b3b7ccc41bb8cc3b0a582637
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
@@ -160,7 +168,11 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
+<<<<<<< HEAD
       <Context docBase="BT_TH_05_Employee" path="/BT_TH_05_Employee" reloadable="true" source="org.eclipse.jst.jee.server:BT_TH_05_Employee"/><Context docBase="sping-hibernate-onetomany-security-demo" path="/sping-hibernate-onetomany-security-demo" reloadable="true" source="org.eclipse.jst.jee.server:sping-hibernate-onetomany-security-demo"/></Host>
+=======
+      <Context docBase="Bai_04_Tuan_06" path="/Bai_04_Tuan_06" reloadable="true" source="org.eclipse.jst.jee.server:Bai_04_Tuan_06"/><Context docBase="BT_TH_05_Employee" path="/BT_TH_05_Employee" reloadable="true" source="org.eclipse.jst.jee.server:BT_TH_05_Employee"/></Host>
+>>>>>>> d3ed9075c6814857b3b7ccc41bb8cc3b0a582637
     </Engine>
   </Service>
 </Server>
