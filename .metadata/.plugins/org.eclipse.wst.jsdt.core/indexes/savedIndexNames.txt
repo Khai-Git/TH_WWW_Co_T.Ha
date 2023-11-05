@@ -1,4 +1,0 @@
-INDEX VERSION 1.4+E:\TH_WWW_Co_T.Ha-main\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-4254681892.index
-4269052133.index
-12060209.index
