@@ -26,12 +26,12 @@
 				<td>${emp.name}</td>
 				<td>${emp.salary}</td>
 				<td>${emp.designation}</td>
-				<td><a href="/BT_TH_05_Employee/emp/editemp/${emp.id}">Edit</a></td>
-				<td><a href="/BT_TH_05_Employee/emp/deleteemp/${emp.id}">Delete</a></td>
+				<td><a href="/BT_TH_05_Employee/editemp/${emp.id}">Edit</a></td>
+				<td><a href="/BT_TH_05_Employee/deleteemp/${emp.id}">Delete</a></td>
 			</tr>
 		</c:forEach>
 	</table>
 	<br/>
-	<a href="/BT_TH_05_Employee/emp/empform">Add New Employee</a>
+	<a href="/BT_TH_05_Employee/empform">Add New Employee</a>
 </body>
 </html>

@@ -10,7 +10,7 @@
 </head>
 <body>
 	<h1>Edit Employee</h1>
-	<form:form method="GET" action="/BT_TH_05_Employee/emp/update">
+	<form:form method="GET" action="/BT_TH_05_Employee/update">
 		<input type="hidden" type = "number" name="id" value="${editEmp.getId()}" >
 		<label>Name:</label>
 		<input type = "text" name="name" value="${editEmp.getName()}" />

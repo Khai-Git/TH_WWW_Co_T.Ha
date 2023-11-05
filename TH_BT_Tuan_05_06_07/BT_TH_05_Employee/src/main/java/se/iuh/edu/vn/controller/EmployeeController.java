@@ -21,16 +21,19 @@ import se.iuh.edu.vn.dao.EmployeeDAO;
 import se.iuh.edu.vn.dao.EmployeeService;
 
 @Controller
-@RequestMapping("/emp")
-public class EmployeeController {
+//@RequestMapping("/emp")
+public class EmployeeController {	
 	@Autowired
 	EmployeeService service;
-
-//	@RequestMapping("/empform")
-//	public ModelAndView showform() {
-//		return new ModelAndView("empform", "command", new EmployeeService(null));
-//	}
-//
+	
+	@RequestMapping("/")
+	@GetMapping("/viewemp")
+	public String viewemp(Model model) {
+		List<Employee> list = service.getList();
+		model.addAttribute("list", list);
+		return "viewemp";
+	}
+	
 	@PostMapping("/save")
 	public String save(HttpServletRequest http) {
 		Employee empl = new Employee();
@@ -42,7 +45,7 @@ public class EmployeeController {
 		empl.setDesignation(des);
 		service.save(empl);
 
-		return "redirect:/emp/viewemp";
+		return "redirect:/";
 	}
 
 	@GetMapping("/update")
@@ -57,21 +60,12 @@ public class EmployeeController {
 		System.out.println(empl);
 		service.update(empl);
 
-		return "redirect:/emp/viewemp";
+		return "redirect:/";
 	}
 
 	@GetMapping(value = "/empform")
 	public String add() {
 		return "empform";
-	}
-
-//	
-	@GetMapping("/viewemp")
-	public String viewemp(Model model) {
-		List<Employee> list = service.getList();
-		model.addAttribute("list", list);
-//		return new ModelAndView("list", "viewemp", list);
-		return "viewemp";
 	}
 
 	@GetMapping(value = "/editemp/{id}")
@@ -82,17 +76,9 @@ public class EmployeeController {
 		return "empeditform";
 	}
 
-//
-//	/* Cập nhật đối tượng model. */
-//	@RequestMapping(value = "/editsave", method = RequestMethod.POST)
-//	public ModelAndView editsave(@ModelAttribute("emp") Employee emp) {
-//		dao.update(emp);
-//		return new ModelAndView("redirect:/viewemp");
-//	}
-//
 	@GetMapping(value = "/deleteemp/{id}")
 	public ModelAndView delete(@PathVariable int id) {
 		service.delete(id);
-		return new ModelAndView("redirect:/emp/viewemp");
+		return new ModelAndView("redirect:/");
 	}
 }
