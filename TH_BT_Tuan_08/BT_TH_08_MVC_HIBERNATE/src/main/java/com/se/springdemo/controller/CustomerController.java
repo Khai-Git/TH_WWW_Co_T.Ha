@@ -15,17 +15,28 @@ import com.se.springdemo.entity.Customer;
 import com.se.springdemo.service.CustomerService;
 
 @Controller
-@RequestMapping("/customer")
+//@RequestMapping("/customer")
 public class CustomerController {
+
 	@Autowired
-// need to inject our customer service
+	// need to inject our customer service
 	private CustomerService customerService;
 
+	@RequestMapping("/")
+	@GetMapping("/list")
+	public String listCustomers(Model theModel) {
+		// get customers from the service
+		List<Customer> theCustomers = customerService.getCustomers();
+		// add the customers to the model
+		theModel.addAttribute("customers", theCustomers);
+		return "list-customer";
+	}
+	
 	@PostMapping("/saveCustomer")
 	public String saveCustomer(@ModelAttribute("customer") Customer theCustomer) {
-// save the customer using our service
+		// save the customer using our service
 		customerService.saveCustomer(theCustomer);
-		return "redirect: /customer/list";
+		return "redirect:/";
 	}
 
 	@GetMapping("/showFormForUpdate")
@@ -48,16 +59,12 @@ public class CustomerController {
 
 	@GetMapping("/delete")
 	public String deleteCustomer(@RequestParam("customerId") int theId) {
-		// delete the customer customerService.deleteCustomer (theId);
-		return "redirect: /customer/list";
-	}
 
-	@GetMapping("/list")
-	public String listCustomers(Model theModel) {
-		// get customers from the service
-		List<Customer> theCustomers = customerService.getCustomers();
-		// add the customers to the model
-		theModel.addAttribute("customers", theCustomers);
-		return "list-customers";
+		// delete the customer
+		customerService.deleteCustomer(theId);
+
+		return "redirect:/";
 	}
 }
+
+
