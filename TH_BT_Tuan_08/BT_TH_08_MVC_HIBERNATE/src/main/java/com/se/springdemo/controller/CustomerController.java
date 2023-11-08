@@ -16,12 +16,12 @@ import com.se.springdemo.service.CustomerService;
 
 @Controller
 //@RequestMapping("/customer")
+@RequestMapping("/")
 public class CustomerController {
 
 	@Autowired
-	// need to inject our customer service
 	private CustomerService customerService;
-
+	
 	@RequestMapping("/")
 	@GetMapping("/list")
 	public String listCustomers(Model theModel) {
@@ -31,7 +31,7 @@ public class CustomerController {
 		theModel.addAttribute("customers", theCustomers);
 		return "list-customer";
 	}
-	
+
 	@PostMapping("/saveCustomer")
 	public String saveCustomer(@ModelAttribute("customer") Customer theCustomer) {
 		// save the customer using our service
@@ -59,12 +59,8 @@ public class CustomerController {
 
 	@GetMapping("/delete")
 	public String deleteCustomer(@RequestParam("customerId") int theId) {
-
 		// delete the customer
 		customerService.deleteCustomer(theId);
-
 		return "redirect:/";
 	}
 }
-
-
